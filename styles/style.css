@@ -1,0 +1,56 @@
+body {
+  font-family: 'Fira Mono', sans-serif;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  margin: auto;
+
+}
+
+.title-header{
+  border-radius: 4px;
+  border: solid 3px rgba(232, 232, 232, 0.96);
+  background-color: rgba(232, 232, 232, 0.6);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  text-align: center;
+  margin: auto;
+}
+
+#ref-titles{
+  margin-top: 15px;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  border: solid 3px rgba(232, 232, 232, 0.96);
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 20px;
+
+}
+
+.pitch{
+  margin: 30px;
+  text-align: justify;
+}
+
+.left-side{
+  position: relative;
+  float: left;
+  margin-left: 30px;
+}
+
+.right-side{
+  position: relative;
+  float: right;
+  margin-right: 30px;
+}

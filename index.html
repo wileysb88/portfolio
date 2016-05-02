@@ -2,67 +2,145 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="styles/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/bootstrap-social.css" rel="stylesheet">
+    <link href="styles/materialize.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css'>
   </head>
   <body>
-
-
-
     <header>
-        <h1 class="title">TALL GUY FROM CHI</h1>
-
+        <nav class="button-collapse light-blue darken-4">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><div class="row"><img id="logo-pic" src="images/richard-wedding-pic.jpg" /><div>TALL GUY FROM CHI</div></div></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="side-nav text-light-blue darken-4" id="mobile-demo">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
     </header>
-    <body>
-      <div id="about">
-        <p class="pitch">
-          I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.
-        </p>
+    <div class="parallax-container">
+    <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.06.12 PM.png">Front End. Fashion.</div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header grey-text text-darken-3">Front-End and Fashion</h2>
+      <p class="grey-text text-darken-3 lighten-3">I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.09.02 PM.png"></div>
+  </div>
+
+    <div id="portfolio">
+
+      <div class="title-header">
+        <h1>PORTFOLIO</h1>
+        (click on image to view)
       </div>
-      <div id="portfolio">
-
-        <div class="title-header">
-          <h1>PORTFOLIO</h1>
-          (click on image to view)
+      <div class="row">
+        <div class="col s12 l6 left">
+          <div class="card ight-blue darken-4">
+            <div class="card-content white-text">
+              <h4>So You Think You Can Style?</h4>
+              <img class="projects" src="images/sytycs.png" alt="" />
+              <p>An interactive game in which players pick the best outfit for the needs of a client. Run with HTML, CSS, Javascript and jQuery, this game utilizes drag and drop features to navigate through a list of stories, each with their own styling needs. It is able to be applied to any retailer and could be easily used to train staff members on new products each season.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Click here to Play!</a>
+              <a href="#">Click here to see code on Github</a>
+            </div>
+          </div>
         </div>
-
-        <div class="col-xs-5 left-side">
-          <a href="http://wileysb88.github.io/project_1/"><img src="images/sytycs.png" alt="" /></a>
-          <p>
-            An interactive game in which players pick the best outfit for the needs of a client. Run with HTML, CSS, Javascript and jQuery, this game utilizes drag and drop features to navigate through a list of stories, each with their own styling needs. It is able to be applied to any retailer and could be easily used to train staff members on new products each season.
-          </p>
+        <div class="col s12 l6 right">
+          <div class="card light-blue darken-4">
+            <div class="card-content white-text">
+              <h4>Chomp!</h4>
+              <a href="#"><img class="projects" src="images/chomp.png" alt="" /></a>
+              <p>
+                A word of mouth forum that allows locals to share stats and reviews about neighborhood restaurants. Using Ruby, Sinatra, SQLite, HTML and CSS, visitors can vote reviews up or down and live chat to discuss the best local neighborhood spots.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Click here to Play!</a>
+              <a href="#">Click here to see code on Github</a>
+            </div>
+          </div>
         </div>
-        <div class="col-xs-5 right-side">
-          <a href="#"><img src="images/chomp.png" alt="" /></a>
-          <p>
-            A word of mouth forum that allows locals to share stats and reviews about neighborhood restaurants. Using Ruby, Sinatra, SQLite, HTML and CSS, visitors can vote reviews up or down and live chat to discuss the best local neighborhood spots.
-          </p>
-        </div>
-        <div class="col-xs-5 left-side">
-          <h2></h2>
-          <a href="#"><img src="images/whowhatwhere.png" alt="" /></a>
-          <p>
-            Whether you want to snap a picture and post it to the corresponding location, or you are sitting at home wondering what is going on in your city, this site allows users to post pictures and comments to corresponding locations in order to create a crowd sourced live map of what is happening and where using HTML, CSS, React.js and MongoDB.
-          </p>
-        </div>
-        <div class="col-xs-5 right-side">
-          <a href="#"><img src="" alt="" /></a>
-        </div>
-        <div class="col-xs-5">
-          <a href="#"><img src="" alt="" /></a>
-        </div>
+      </div>
+      <div class="row">
 
       </div>
-      <div id="contact">
-
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card light-blue darken-4">
+            <div class="card-content white-text">
+              <h4>WHO/WHAT/WHERE</h4>
+              <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
+              <p>
+                Whether you want to snap a picture and post it to the corresponding location, or you are sitting at home wondering what is going on in your city, this site allows users to post pictures and comments to corresponding locations in order to create a crowd sourced live map of what is happening and where using HTML, CSS, React.js and MongoDB.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Click here to Play!</a>
+              <a href="#">Click here to see code on Github</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </body>
+      <div class="row">
+        <div class="col s12 m6 ">
+          <div class="card light-blue darken-4">
+            <div class="card-content white-text">
+              <h4>NFL Pick 'Em Game</h4>
+              <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
+              <p>
+                A Drag and Drop game that allows users to pick winners of each game weekly and assign alotted points to each game. Uses jQuery and Express
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Click here to Play!</a>
+              <a href="#">Click here to see code on Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card light-blue darken-4">
+            <div class="card-content white-text">
+              <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
+              <p>
+                Whether you want to snap a picture and post it to the corresponding location, or you are sitting at home wondering what is going on in your city, this site allows users to post pictures and comments to corresponding locations in order to create a crowd sourced live map of what is happening and where using HTML, CSS, React.js and MongoDB.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Click here to Play!</a>
+              <a href="#">Click here to see code on Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
-    </header>
+    <div id="contact">
 
+    </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js" charset="utf-8"></script>
+  <script src="scripts/materialize.js"></script>
+  <script src="scripts/app.js"></script>
+
+
 </html>

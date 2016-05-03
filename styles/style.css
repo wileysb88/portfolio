@@ -1,6 +1,5 @@
 body {
   font-family: 'Fira Mono', sans-serif;
-  color: white;
   margin: auto;
 
 }
@@ -8,13 +7,19 @@ body {
 .header{
   text-align: center;
 }
+.chicago-icon{
+  height: 50px;
+  width: 50px;
+  color: white;
+}
 #logo-pic{
-  height: 75px;
-  width: 75px;
-  border: 2px solid rgb(251, 177, 110);
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
   border-radius: 50%;
   position: relative;
   float: left;
+  margin-right: 75px;
 }
 
 .brand-logo{
@@ -48,9 +53,20 @@ a{
   border-radius: 4px;
   border: solid 3px rgba(232, 232, 232, 0.96);
   text-align: center;
-  margin-left: 30px;
   margin-bottom: 20px;
 
+}
+
+.sytycs{
+  font-family: 'Satisfy', cursive, serif!important;
+}
+
+.chomp{
+  font-family: 'Special Elite', serif!important;
+}
+
+.whowhatwhere{
+  font-family: 'Economica', sans-serif!important;
 }
 
 .pitch{
@@ -72,4 +88,8 @@ a{
 
 .nav-wrapper{
   margin: 10px;
+}
+
+.card{
+  text-align: center;
 }

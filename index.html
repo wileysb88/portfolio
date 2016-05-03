@@ -4,15 +4,20 @@
     <meta charset="utf-8">
     <link href="styles/bootstrap-social.css" rel="stylesheet">
     <link href="styles/materialize.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Economica:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Overlock:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <header>
         <nav class="button-collapse light-blue darken-4">
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><div class="row"><img id="logo-pic" src="images/richard-wedding-pic.jpg" /><div>TALL GUY FROM CHI</div></div></a>
+            <a href="#!" class="brand-logo"><div class="row"><img src="images/noun_143399_cc.png" class="chicago-icon left" /><div>Tall Guy From Chi</div></div></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li><a href="#">About</a></li>
@@ -30,17 +35,22 @@
         </nav>
     </header>
     <div class="parallax-container">
-    <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.06.12 PM.png">Front End. Fashion.</div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header grey-text text-darken-3">Front-End and Fashion</h2>
-      <p class="grey-text text-darken-3 lighten-3">I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
+    <div class="parallax"><img src="images/background-image-2.png">Front End. Fashion.</div>
     </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.09.02 PM.png"></div>
-  </div>
+    <div class="section white">
+      <div class="row container">
+        <div class="col s12 l4"><img id="logo-pic" class="left" src="images/richard-wedding-pic.jpg" /></div>
+        <div class="col s12 l8 right">
+          <h2 class="header grey-text text-darken-3">Front-End and Fashion</h2>
+          <p class="grey-text text-darken-3 lighten-3 flow-text">I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.09.02 PM.png"></div>
+    </div>
 
     <div id="portfolio">
 
@@ -48,11 +58,11 @@
         <h1>PORTFOLIO</h1>
         (click on image to view)
       </div>
-      <div class="row">
+      <div class="row first">
         <div class="col s12 l6 left">
-          <div class="card ight-blue darken-4">
+          <div class="card light-blue darken-4">
             <div class="card-content white-text">
-              <h4>So You Think You Can Style?</h4>
+              <h3 class="sytycs">So You Think You Can Style?</h3>
               <img class="projects" src="images/sytycs.png" alt="" />
               <p>An interactive game in which players pick the best outfit for the needs of a client. Run with HTML, CSS, Javascript and jQuery, this game utilizes drag and drop features to navigate through a list of stories, each with their own styling needs. It is able to be applied to any retailer and could be easily used to train staff members on new products each season.</p>
             </div>
@@ -65,7 +75,7 @@
         <div class="col s12 l6 right">
           <div class="card light-blue darken-4">
             <div class="card-content white-text">
-              <h4>Chomp!</h4>
+              <h3 class="chomp">Chomp!</h3>
               <a href="#"><img class="projects" src="images/chomp.png" alt="" /></a>
               <p>
                 A word of mouth forum that allows locals to share stats and reviews about neighborhood restaurants. Using Ruby, Sinatra, SQLite, HTML and CSS, visitors can vote reviews up or down and live chat to discuss the best local neighborhood spots.
@@ -79,13 +89,10 @@
         </div>
       </div>
       <div class="row">
-
-      </div>
-      <div class="row">
-        <div class="col s12 m6">
+        <div class="col s12 m6 left">
           <div class="card light-blue darken-4">
             <div class="card-content white-text">
-              <h4>WHO/WHAT/WHERE</h4>
+              <h3 class="whowhatwhere">WHO/WHAT/WHERE</h3>
               <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
               <p>
                 Whether you want to snap a picture and post it to the corresponding location, or you are sitting at home wondering what is going on in your city, this site allows users to post pictures and comments to corresponding locations in order to create a crowd sourced live map of what is happening and where using HTML, CSS, React.js and MongoDB.
@@ -97,9 +104,7 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m6 ">
+        <div class="col s12 m6 right">
           <div class="card light-blue darken-4">
             <div class="card-content white-text">
               <h4>NFL Pick 'Em Game</h4>
@@ -116,9 +121,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s12 m6">
+        <div class="col s12 m6 left">
           <div class="card light-blue darken-4">
             <div class="card-content white-text">
+              <h4>You Look Good!</h4>
               <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
               <p>
                 Whether you want to snap a picture and post it to the corresponding location, or you are sitting at home wondering what is going on in your city, this site allows users to post pictures and comments to corresponding locations in order to create a crowd sourced live map of what is happening and where using HTML, CSS, React.js and MongoDB.
@@ -130,13 +136,76 @@
             </div>
           </div>
         </div>
+        <div class="col s12 m6 right">
+          <div class="card light-blue darken-4">
+            <div class="card-content white-text">
+              <h4>ALL 4 TALL</h4>
+              <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
+              <p>
+                An app that helps tall people find stores around them that actually carry their size. Taking the benefit of online shopping to the in store shopping experience.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Click here to Play!</a>
+              <a href="#">Click here to see code on Github</a>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/background-image-2.png"></div>
+      </div>
+      <div class="section white">
+        <div class="row container">
+          <div class="col s12">
+            <h2 class="header grey-text text-darken-3">CAUSES I CARE ABOUT</h2>
+            <p class="grey-text text-darken-3 lighten-3 flow-text">Clothing and computers take up most of my life. Here are some causes that add a bit more too it. Check them out and feel free to donate or get involved with these amazing organizations!</p>
+            <div class="slider">
+                 <ul class="slides">
+                   <li>
+                     <img src="images/jdrf1color.jpg"> <!-- random image -->
+                     <div class="caption left-align">
+                       <h3>JDRF</h3>
+                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                     </div>
+                   </li>
+                   <li>
+                     <img src="images/NAA-logo-250px.jpg"> <!-- random image -->
+                     <div class="caption left-align">
+                       <h3>National Aphasia Association</h3>
+                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                     </div>
+                   </li>
+                   <li>
+                     <img src="images/AFC30thLogo.png"> <!-- random image -->
+                     <div class="caption left-align">
+                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                     </div>
+                   </li>
+                 </ul>
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.09.02 PM.png"></div>
+      </div>
+      <div class="section white">
+        <div class="row container">
+          <div class="col s12">
+            <h2 class="header grey-text text-darken-3">CONTACT</h2>
+            <p class="grey-text text-darken-3 lighten-3 flow-text">I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
+            <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
 
+          </div>
+        </div>
+      </div>
 
-    <div id="contact">
-
-    </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js" charset="utf-8"></script>
   <script src="scripts/materialize.js"></script>

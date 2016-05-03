@@ -13,6 +13,7 @@ body {
   height: 50px;
   width: 50px;
   color: white;
+  margin-right: 15px;
 }
 #logo-pic{
   height: 300px;
@@ -21,15 +22,24 @@ body {
   border-radius: 50%;
   position: relative;
   float: left;
-  margin-right: 75px;
+  margin-right: 100px;
 }
 
-.brand-logo{
-  margin-top: 5px;
+.banner-top{
+  width: 100%;
 }
 
 .tgfc{
   font-family: 'Unica One', cursive!important;
+  margin-bottom: 10px;
+}
+
+.left-header{
+  margin-bottom: 15px;
+}
+
+.parallax{
+  height: 150px;
 }
 
 p{
@@ -40,6 +50,14 @@ a{
   text-align: center;
   margin: auto;
 }
+
+.media-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 
 #ref-titles{
   margin-top: 15px;

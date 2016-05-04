@@ -1,8 +1,30 @@
-.center-in-row {
+// ---------------VARIABLES---------------------
+
+@creamColor: rgb(255, 255, 241);
+
+
+.blackBackground(){
+  background-color: rgba(4, 4, 4, 0.69);
+}
+
+.right-side(){
+  position: relative;
+  flex: right;
+}
+
+.left-side(){
+  position: relative;
+  flex: left;
+}
+
+.center-in-row{
   display: flex;
   align-items: center;
 }
-html {
+
+// -------------- CSS STYLING ------------------
+
+html{
   background: url('../images/chicago-background-small 2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,55 +32,66 @@ html {
   background-size: cover;
   background-position-x: 0;
 }
+
 body {
   font-family: 'Fira Mono', sans-serif;
-  color: #fffff1;
+  color: @creamColor;
 }
-.red-word {
-  color: #ee5555 !important;
+
+.red-word{
+  color: rgb(238, 85, 85)!important;
 }
+
+
 .button-collapse {
-  background-color: rgba(4, 4, 4, 0.69);
+  .blackBackground;
 }
+
 .chicago-icon {
   height: 50px;
   width: 50px;
   color: white;
   margin-right: 15px;
 }
+
+
 .initial-break {
   height: 500px;
   width: 100%;
 }
+
 .break {
   height: 300px;
   width: 100%;
 }
+
 #about {
-  background-color: rgba(4, 4, 4, 0.69);
+  .blackBackground;
   padding: 40px;
   list-style-type: none;
 }
-.about-pic-contact {
-  display: flex;
-  align-items: center;
+
+.about-pic-contact{
+  .center-in-row;
 }
-.about-icon {
+
+.about-icon{
   margin-right: 5px;
 }
 .about-words {
-  position: relative;
-  flex: right;
+  .right-side;
   font-size: 24px;
 }
-.email-profile-line {
-  display: flex;
-  align-items: center;
+
+.email-profile-line{
+  .center-in-row;
 }
-.phone-profile-line {
-  display: flex;
-  align-items: center;
+
+.phone-profile-line{
+  .center-in-row;
 }
+
+
 #logo-pic {
   height: 200px;
   width: 200px;
@@ -68,6 +101,15 @@ body {
   float: left;
   margin-right: 20px;
 }
+
+
+
+// .container {
+//   display: flex;
+//   align-items: center;
+// }
+
+
 .banner-top {
   width: 100%;
 }
@@ -84,13 +126,16 @@ body {
 p {
   text-align: justify;
 }
+
 .media-container-about {
   display: flex;
   justify-content: flex-start;
 }
-.media-icons {
+
+.media-icons{
   margin-right: 10px;
 }
+
 .media-container-contact {
   display: flex;
   justify-content: space-between;

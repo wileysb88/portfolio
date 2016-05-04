@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/full-page.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div id="fullpage">
+
 
 
     <!-- START HEADER -->
@@ -24,7 +24,7 @@
       <div class="navbar-fixed">
         <nav class="button-collapse">
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><div class="row left-header"><img src="images/Slice 1.png" class="chicago-icon left" /><div class="tgfc">TALL GUY FROM CHI</div></div></a>
+            <a href="#" class="brand-logo"><div class="row left-header"><img src="images/Slice 1.png" class="chicago-icon left" /><div class="tgfc">TALL GUY FROM CHI</div></div></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li data-menuanchor="about"><a href="#about">About</a></li>
@@ -32,7 +32,7 @@
               <li data-menuanchor="causes"><a href="#causes">Donate</a></li>
               <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
           </ul>
-            <ul class="side-nav text-" id="mobile-demo">
+            <ul class="side-nav" id="mobile-demo">
               <li data-menuanchor="about"><a href="#about">About</a></li>
               <li data-menuanchor="portfolio"><a href="#portfolio">Portfolio</a></li>
               <li data-menuanchor="causes"><a href="#causes">Donate</a></li>
@@ -43,7 +43,7 @@
       </div>
     </header>
 
-
+    <div id="fullpage">
     <!-- END HEADER -->
     <div class="initial-break"></div>
 
@@ -54,11 +54,25 @@
 
     <div id="about" class="slide" data-anchor="about">
       <div class="row">
-          <div class="col s12 m4 left">
+          <div class="col s12 m12 about-pic-contact">
             <img id="logo-pic" src="images/richard-wedding-pic.jpg" alt="" />
-          </div>
+            <div class="">
+              <li>Name: Scott Wiley</li>
+              <li>Height: 6'9"</li>
+              <li>Shoe Size: 16<li>
+              <li class="email-profile-line"><i class="fa fa-envelope fa-2x about-icon" aria-hidden="true"></i></a>EMAIL: wileysb@gmail.com<li>
+              <li class="phone-profile-line"><i class="material-icons about-icon">phone</i>   Cell Phone: 630-643-5927<li>
+              <container class="media-container-about">
+                <a href="https://github.com/wileysb88" class="media-icons"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/scott.wiley.10" class="media-icons"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/wileysb/?hl=en" class="media-icons"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/wileysb" class="media-icons"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+              </container>
+            </div>
+
+        </div>
           <div class="about-words col s12 m7 right">
-            <h2 class="header">About Me</h2>
+            <h2 class="header">I like <div class="red-word">smiling</div>. Smiling's my favortie</h2>
             <p>I'm Scott Wiley. I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
           </div>
       </div>
@@ -216,7 +230,7 @@
                 <h2 class="">CONTACT</h2>
                 <p>Please feel free to contact me through any media below.</p>
                 <p>(or feel free to make me feel good and like posts and pictures).</p>
-                <container class="media-container">
+                <container class="media-container-contact">
                   <a href="mailto:wileysb@gmail.com" class="media-icons"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
                   <a href="https://github.com/wileysb88" class="media-icons"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
                   <a href="https://www.facebook.com/scott.wiley.10" class="media-icons"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
@@ -231,8 +245,8 @@
     </div>
   </div>
   </body>
-  <script src="scripts/scroll.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js" charset="utf-8"></script>
+  <script src="scripts/scroll.js"></script>
   <script src="scripts/materialize.js"></script>
   <script src="scripts/app.js"></script>
 

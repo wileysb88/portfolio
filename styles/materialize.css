@@ -2653,7 +2653,7 @@ ul.browser-default {
 }
 
 a {
-  color: #039be5;
+  color: rgb(238, 85, 85);
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -4630,14 +4630,14 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color: rgb(238, 85, 85);
   margin-right: 20px;
   transition: color .3s ease;
   text-transform: uppercase;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
+  color: rgb(238, 85, 85);
 }
 
 .card .card-action + .card-reveal {

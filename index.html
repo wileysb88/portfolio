@@ -13,67 +13,76 @@
     <link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles/full-page.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
+    <!-- START HEADER -->
     <header>
-        <nav class="button-collapse light-blue darken-4">
+      <div class="navbar-fixed">
+        <nav class="button-collapse">
           <div class="nav-wrapper">
             <a href="#!" class="brand-logo"><div class="row left-header"><img src="images/Slice 1.png" class="chicago-icon left" /><div class="tgfc">TALL GUY FROM CHI</div></div></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a class="page-slide" href="#about">About</a></li>
+              <li><a class="page-slide" href="#portfolio">Portfolio</a></li>
+              <li><a class="page-slide" href="#causes">Blog</a></li>
+              <li><a class="page-slide" href="#contact">Contact</a></li>
             </ul>
-            <ul class="side-nav text-light-blue darken-4" id="mobile-demo">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+            <ul class="side-nav text-" id="mobile-demo">
+              <li><a class="page-slide" href="#about">About</a></li>
+              <li><a class="page-slide" href="#portfolio">Portfolio</a></li>
+              <li><a class="page-slide" href="#causes">Donate</a></li>
+              <li><a class="page-slide" href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
+      </div>
     </header>
 
-    <div><img class="banner-top" src="images/background-image-edited.png"></div>
-    <div class="section white">
-      <div class="row container">
-        <div class="col s12 l4"><img id="logo-pic" class="left" src="images/richard-wedding-pic.jpg" /></div>
-        <div class="about col s12 l8 right">
-          <h2 class="header grey-text text-darken-3">Front-End and Fashion</h2>
-          <p class="grey-text text-darken-3 lighten-3 flow-text">I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
-        </div>
+
+    <!-- END HEADER -->
+    <div class="initial-break"></div>
 
 
+    <!-- START ABOUT -->
+    <div id="about" class="section">
+      <div class="row">
+          <div class="col s12 m4 left">
+            <img id="logo-pic" src="images/richard-wedding-pic.jpg" alt="" />
+          </div>
+          <div class="about-words col s12 m7 right">
+            <h2 class="header">About Me</h2>
+            <p>I'm Scott Wiley. I am giant in size as well as personality. I am a creative and logical web developer who can pull from my past experiences as a buyer in retail to meet the needs of an ever changing industry. I’m passionate about finding a fast paced environment at the cross roads of fashion and function with a little bit of fun in between. Putting my development skills together with a personable demeanor will hopefully bring some spice to your team.</p>
+          </div>
       </div>
     </div>
-    <div class="parallax-container">
-      <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.09.02 PM.png"></div>
-    </div>
+    <!-- END ABOUT -->
 
+    <div class="break"></div>
+
+    <!-- START PORTFOLIO -->
     <div id="portfolio">
-
       <div class="title-header">
         <h1>PORTFOLIO</h1>
         (click on image to view)
       </div>
       <div class="row first">
         <div class="col s12 l6 left">
-          <div class="card light-blue darken-4">
+          <div class="card">
             <div class="card-content white-text">
               <h3 class="sytycs">So You Think You Can Style?</h3>
               <img class="projects" src="images/sytycs.png" alt="" />
               <p>An interactive game in which players pick the best outfit for the needs of a client. Run with HTML, CSS, Javascript and jQuery, this game utilizes drag and drop features to navigate through a list of stories, each with their own styling needs. It is able to be applied to any retailer and could be easily used to train staff members on new products each season.</p>
             </div>
             <div class="card-action">
-              <a href="#">Click here to Play!</a>
-              <a href="#">Click here to see code on Github</a>
+              <a href="https://wileysb88.github.io/project_1/">Click here to Play!</a>
+              <a href="https://github.com/wileysb88/project_1">Click here to see code on Github</a>
             </div>
           </div>
         </div>
         <div class="col s12 l6 right">
-          <div class="card light-blue darken-4">
+          <div class="card">
             <div class="card-content white-text">
               <h3 class="chomp">Chomp!</h3>
               <a href="#"><img class="projects" src="images/chomp.png" alt="" /></a>
@@ -82,15 +91,15 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#">Click here to Play!</a>
-              <a href="#">Click here to see code on Github</a>
+              <a href="http://chomp-chicago.herokuapp.com/">Click here to Play!</a>
+              <a href="https://github.com/wileysb88/project_2">Click here to see code on Github</a>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col s12 m6 left">
-          <div class="card light-blue darken-4">
+          <div class="card">
             <div class="card-content white-text">
               <h3 class="whowhatwhere">WHO/WHAT/WHERE</h3>
               <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
@@ -105,7 +114,7 @@
           </div>
         </div>
         <div class="col s12 m6 right">
-          <div class="card light-blue darken-4">
+          <div class="card">
             <div class="card-content white-text">
               <h4>NFL Pick 'Em Game</h4>
               <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
@@ -122,7 +131,7 @@
       </div>
       <div class="row">
         <div class="col s12 m6 left">
-          <div class="card light-blue darken-4">
+          <div class="card">
             <div class="card-content white-text">
               <h4>You Look Good!</h4>
               <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
@@ -137,7 +146,7 @@
           </div>
         </div>
         <div class="col s12 m6 right">
-          <div class="card light-blue darken-4">
+          <div class="card">
             <div class="card-content white-text">
               <h4>ALL 4 TALL</h4>
               <a href="#"><img class="projects" src="images/whowhatwhere.png" alt="" /></a>
@@ -152,68 +161,64 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="parallax-container">
-        <div class="parallax"><img src="images/background-image-2.png"></div>
-      </div>
-      <div class="section white">
-        <div class="row container">
-          <div class="col s12">
-            <h2 class="header grey-text text-darken-3">CAUSES I CARE ABOUT</h2>
-            <p class="grey-text text-darken-3 lighten-3 flow-text">Clothing and computers take up most of my life. Here are some causes that add a lot more meaning to it. Check them out and feel free to donate or get involved with these amazing organizations!</p>
-            <div class="slider">
-                 <ul class="slides">
-                   <li>
-                     <img src="images/jdrf1color.jpg"> <!-- random image -->
-                     <div class="caption left-align">
-                       <h3>JDRF</h3>
-                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                     </div>
-                   </li>
-                   <li>
-                     <img src="images/NAA-logo-250px.jpg"> <!-- random image -->
-                     <div class="caption left-align">
-                       <h3>National Aphasia Association</h3>
-                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                     </div>
-                   </li>
-                   <li>
-                     <img src="images/AFC30thLogo.png"> <!-- random image -->
-                     <div class="caption left-align">
-                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                     </div>
-                   </li>
-                 </ul>
-               </div>
+
+<!--
+      <div id="#causes">
+        <div class="section white">
+          <div class="row container">
+            <div class="col s12">
+              <h2 class="header grey-text text-darken-3">CAUSES I CARE ABOUT</h2>
+              <p class="grey-text text-darken-3 lighten-3 flow-text">Clothing and computers take up most of my life. Here are some causes that add a lot more meaning to it. Check them out and feel free to donate or get involved with these amazing organizations!</p>
+              <div class="slider">
+                   <ul class="slides">
+                     <li>
+                       <img src="images/jdrf1color.jpg">
+                       <div class="caption left-align">
+                         <h3>JDRF</h3>
+                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                       </div>
+                     </li>
+                     <li>
+                       <img src="images/NAA-logo-250px.jpg">
+                       <div class="caption left-align">
+                         <h3>National Aphasia Association</h3>
+                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                       </div>
+                     </li>
+                     <li>
+                       <img src="images/AFC30thLogo.png">
+                       <div class="caption left-align">
+                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                       </div>
+                     </li>
+                   </ul>
+                 </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="parallax-container">
-        <div class="parallax"><img src="images/Screen Shot 2016-05-02 at 12.09.02 PM.png"></div>
-      </div>
-      <div class="section white">
-        <div class="row container">
-          <div class="col s12">
-            <h2 class="header grey-text text-darken-3">CONTACT</h2>
-            <p class="grey-text text-darken-3 lighten-3 flow-text">Please feel free to contact me through any media below.</p>
-            <p class="grey-text text-darken-3 lighten-3 flow-text">(or feel free to make me feel good and like posts and pictures).</p>
-            <container class="media-container">
-              <a href="mailto:wileysb@gmail.com" class="media-icons"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
-              <a href="https://github.com/wileysb88" class="media-icons"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-              <a href="https://www.facebook.com/scott.wiley.10" class="media-icons"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-              <a href="https://www.instagram.com/wileysb/?hl=en" class="media-icons"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/wileysb" class="media-icons"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
-
-
-
-
-
-            </container>
+      </div> -->
+<!--
+          <div class="section white">
+            <div class="row container">
+              <div class="col s12">
+                <h2 class="header grey-text text-darken-3">CONTACT</h2>
+                <p class="grey-text text-darken-3 lighten-3 flow-text">Please feel free to contact me through any media below.</p>
+                <p class="grey-text text-darken-3 lighten-3 flow-text">(or feel free to make me feel good and like posts and pictures).</p>
+                <container class="media-container">
+                  <a href="mailto:wileysb@gmail.com" class="media-icons"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+                  <a href="https://github.com/wileysb88" class="media-icons"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+                  <a href="https://www.facebook.com/scott.wiley.10" class="media-icons"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/wileysb/?hl=en" class="media-icons"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+                  <a href="https://twitter.com/wileysb" class="media-icons"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+                </container>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
+      </div> -->
   </body>
+  <script src="scripts/scroll.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js" charset="utf-8"></script>
   <script src="scripts/materialize.js"></script>
   <script src="scripts/app.js"></script>

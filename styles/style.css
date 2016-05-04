@@ -119,4 +119,9 @@ p {
   text-align: center;
   background-color: rgba(4, 4, 4, 0.75);
   border-radius: 4px;
+  height: 700px;
+}
+.title-header {
+  background-color: rgba(4, 4, 4, 0.69);
+  text-align: center;
 }

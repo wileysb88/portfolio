@@ -4622,7 +4622,9 @@ small {
 }
 
 .card .card-action {
-  position: relative;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
   background-color: inherit;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 20px;

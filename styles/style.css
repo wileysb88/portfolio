@@ -68,6 +68,12 @@ body {
   float: left;
   margin-right: 20px;
 }
+#causes {
+  background-color: rgba(4, 4, 4, 0.69);
+}
+#contact {
+  background-color: rgba(4, 4, 4, 0.69);
+}
 .banner-top {
   width: 100%;
 }

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "start": "node index.html",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
     "gulp": "^3.9.1"
   },

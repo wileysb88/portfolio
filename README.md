@@ -35,4 +35,4 @@ Follow <a href="http://wileysb88.github.io/portfolio/">THIS LINK</a> and check o
 
 - While it is very responsive there are a few things that I did not edit perfectly to my liking.
 
-- 
+- Still need to add certain hover effects and fade in and fade out effects. 

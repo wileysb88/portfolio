@@ -107,6 +107,9 @@ p {
 #ref-titles {
   margin-top: 15px;
 }
+.footer-blurb {
+  margin: 0px 75px;
+}
 .projects {
   height: 300px;
   width: 300px;
@@ -138,6 +141,10 @@ p {
 .title-header {
   background-color: rgba(4, 4, 4, 0.69);
   text-align: center;
+}
+.tagline {
+  text-align: center;
+  margin-bottom: 20px;
 }
 .section-title {
   text-align: center;

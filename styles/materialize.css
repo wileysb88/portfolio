@@ -2916,6 +2916,9 @@ ul.staggered-list li {
   .hide-on-med-and-down {
     display: none !important;
   }
+  .card{
+    height: 660px!important;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -2929,6 +2932,11 @@ ul.staggered-list li {
     display: none !important;
   }
 }
+
+
+
+
+
 
 @media only screen and (min-width: 993px) {
   .hide-on-large-only {

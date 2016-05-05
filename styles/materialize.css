@@ -5648,8 +5648,8 @@ input[type=search].valid,
 input[type=search]:focus.valid,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea:focus.valid {
-  border-bottom: 1px solid #4CAF50;
-  box-shadow: 0 1px 0 0 #4CAF50;
+  border-bottom: 1px solid rgb(238, 85, 85);
+  box-shadow: 0 1px 0 0 rgb(238, 85, 85);
 }
 
 input:not([type]).valid + label:after,
@@ -5679,7 +5679,7 @@ input[type=search]:focus.valid + label:after,
 textarea.materialize-textarea.valid + label:after,
 textarea.materialize-textarea:focus.valid + label:after {
   content: attr(data-success);
-  color: #4CAF50;
+  color: rgb(238, 85, 85);
   opacity: 1;
 }
 
@@ -7340,7 +7340,7 @@ input[type=range]:focus::-ms-fill-upper {
 .slider .slides {
   background-color: #9e9e9e;
   margin: 0;
-  height: 400px;
+  height: 500px;
 }
 
 .slider .slides li {
@@ -7379,12 +7379,9 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators {
-  position: absolute;
+  position: relative;
   text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
+  margin-top: 20px;
 }
 
 .slider .indicators .indicator-item {
@@ -7400,7 +7397,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: rgb(238, 85, 85);
 }
 
 .carousel {

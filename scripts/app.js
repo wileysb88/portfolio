@@ -1,9 +1,8 @@
 $( document ).ready(function(){
    $(".button-collapse").sideNav();
-   $('#fullpage').fullpage();
-
+   $('.slider').slider({full_width: true});
 });
-})
+
 
 var options = [
    {selector: '.first', offset: 200, callback: function() {

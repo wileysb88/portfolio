@@ -17,10 +17,18 @@
   flex: left;
 }
 
-.center-in-row{
+.center-in-row(){
   display: flex;
   align-items: center;
 }
+
+.fixed-bottom-text(){
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  background-color: rgba(4, 4, 4, 0.35);
+}
+
 
 // -------------- CSS STYLING ------------------
 
@@ -112,7 +120,15 @@ body {
 
 #causes{
   .blackBackground;
+  height: 750px;
+  padding: 20px;
 }
+
+.causes-text{
+  .red-word;
+  padding: 20px;
+}
+
 
 #contact{
   .blackBackground;
@@ -179,4 +195,28 @@ p {
 .title-header{
   .blackBackground;
   text-align: center;
+}
+
+.section-title{
+  text-align: center;
+}
+
+.carousel-text{
+  .fixed-bottom-text;
+  padding: 20px;
+}
+
+.carousel-image{
+  background-position-y: 0!important;
+  top: 2px;
+}
+
+.slider{
+  margin-bottom: 30px;
+  height: 500px!important;
+}
+
+.slides{
+  height: 500px!important;
+  margin-bottom: 30px;
 }

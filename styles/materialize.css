@@ -6793,7 +6793,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   right: 0;
   height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   z-index: 997;
   will-change: opacity;
 }
@@ -7501,11 +7501,11 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The holder should overlay the entire screen.
  */
-.picker__holder {
+/*.picker__holder {
   position: fixed;
   transition: background 0.15s ease-out, top 0s 0.15s;
   -webkit-backface-visibility: hidden;
-}
+}*/
 
 /**
  * The frame that bounds the box contents of the picker.

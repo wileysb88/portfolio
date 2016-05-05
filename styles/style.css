@@ -129,6 +129,11 @@ p {
   border-radius: 4px;
   height: 700px;
 }
+.porfolio-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .title-header {
   background-color: rgba(4, 4, 4, 0.69);
   text-align: center;
@@ -149,9 +154,9 @@ p {
 }
 .slider {
   margin-bottom: 30px;
-  height: 500px!important;
+  height: 400px!important;
 }
 .slides {
-  height: 500px!important;
+  height: 400px!important;
   margin-bottom: 30px;
 }
